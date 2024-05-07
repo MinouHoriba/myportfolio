@@ -1,7 +1,11 @@
 @charset "utf-8";
 
+body{
+  margin: 0;
+}
 header{
   background-color: pink;
+  height: fit-content;
 }
 
 main{
