@@ -1,3 +1,69 @@
-body{
-  background-color: orange;
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  margin: 12px;
+}
+
+nav {
+  margin: auto 16px auto auto;
+  margin-left: auto;
+}
+
+li{
+  list-style: none;
+  display: flex;
+}
+
+img{
+  margin: 12px;
+  display: flex;
+}
+
+h1{
+  margin: 0 12px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  margin: auto;
+  text-align: center;
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: rgb(0 30 85);
+}
+
+nav a:hover{
+  background-color: #ccc;
+}
+
+
+main {
+  background-color: aqua;
+}
+
+aside {
+  background-color: beige;
+}
+
+footer {
+  background-color: cadetblue;
 }
