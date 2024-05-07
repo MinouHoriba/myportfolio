@@ -1,21 +1,31 @@
 @charset "utf-8";
 
-body{
+body {
   margin: 0;
 }
-header{
+
+header {
   background-color: pink;
   height: fit-content;
+  display: flex;
 }
 
-main{
+nav {
+  margin-left: auto;
+}
+
+li{
+  display: flex;
+}
+
+main {
   background-color: aqua;
 }
 
-aside{
+aside {
   background-color: beige;
 }
 
-footer{
+footer {
   background-color: cadetblue;
 }
