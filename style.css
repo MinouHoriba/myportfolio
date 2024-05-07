@@ -13,12 +13,16 @@ header {
 }
 
 nav {
+  margin: auto 0 auto auto;
   margin-left: auto;
 }
 
 li{
+  list-style: none;
   display: flex;
+  text-align: center;
 }
+
 
 main {
   background-color: aqua;
