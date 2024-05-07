@@ -3,7 +3,8 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック"; font-weight: 200;
+
 }
 
 header {
@@ -32,6 +33,7 @@ img{
 }
 
 h1{
+  font-weight: 200;
   margin: 0 12px;
   height: 56px;
   display: flex;
