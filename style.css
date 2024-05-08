@@ -57,13 +57,19 @@ nav a:hover{
   background-color: #ccc;
 }
 
+.container {
+  display: flex;
+}
 
 main {
   background-color: aqua;
+  flex: 1;
+
 }
 
 aside {
   background-color: beige;
+  width: 400px;
 }
 
 footer {
