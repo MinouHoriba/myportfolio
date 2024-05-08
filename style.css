@@ -64,7 +64,13 @@ nav a:hover{
 main {
   background-color: aqua;
   flex: 1;
+}
+article {
+  display: flex;
+}
 
+.text {
+  display: flex;
 }
 
 aside {
