@@ -92,8 +92,10 @@ img{
 
 aside {
   background-color: beige;
-  width: 400px;
+  width: max-content;
 }
+
+
 
 footer {
   background-color: cadetblue;
