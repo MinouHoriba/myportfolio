@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Sans","ヒラギノ角ゴシック"; font-weight: 200;
+  color: rgb(0 30 85);
 
 }
 
@@ -33,7 +34,7 @@ img{
 }
 
 h1{
-  font-weight: 200;
+  font-weight: inherit;
   margin: 0 12px;
   height: 56px;
   display: flex;
@@ -62,15 +63,29 @@ nav a:hover{
 }
 
 main {
-  background-color: aqua;
   flex: 1;
-}
-article {
-  display: flex;
+  padding: 24px;
 }
 
-.text {
+h2{
+  margin: 0;
+  font-weight: inherit;
+}
+
+article {
   display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  margin: black solid 1px;
+}
+
+article:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+img{
+  margin: 0;
 }
 
 aside {
