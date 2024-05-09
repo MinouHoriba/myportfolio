@@ -6,7 +6,7 @@ body {
   color: rgb(0 30 85);
 }
 
-h1, h2, h3, p {
+h2, h3, p {
     color: inherit;
 }
 
@@ -16,8 +16,8 @@ header {
   align-items: center;
 }
 
-.title{
-  margin: 12px;
+header img{
+  margin: 24px;
 }
 
 nav {
@@ -31,16 +31,8 @@ li{
 }
 
 img{
-  margin: 12px;
+  padding: 24px;
   display: flex;
-}
-
-h1{
-  font-weight: inherit;
-  margin: 0 12px;
-  height: 56px;
-  display: flex;
-  align-items: center;
 }
 
 ul{
@@ -49,6 +41,7 @@ ul{
 }
 
 a{
+  margin: 0;
   display: flex;
   text-decoration: none;
   text-align: center;
@@ -69,8 +62,12 @@ main {
   padding: 24px;
 }
 
+@media(max-width: 400px){
+
+}
 h2{
-  margin: 0;
+  margin:12px;
+  padding: 0;
   font-weight: inherit;
 }
 
@@ -85,6 +82,9 @@ article:nth-child(even){
   flex-direction: row-reverse;
 }
 
+.text{
+    min-width: 600px;
+}
 img{
   margin: 0;
 }
