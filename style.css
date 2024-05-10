@@ -62,8 +62,10 @@ main {
   padding: 24px;
 }
 
-@media(max-width: 400px){
-
+@media(max-width: 412px){
+  aside{
+    display: none;
+  }
 }
 h2{
   margin:12px;
