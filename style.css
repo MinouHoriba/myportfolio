@@ -7,37 +7,37 @@ body {
 }
 
 h2, h3, p {
-    color: inherit;
+  color: inherit;
 }
 
 header {
-  height: 120px;
+  margin: 0;
+  height: max-content;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background: white;
+
 }
 
 header img{
-  margin: 24px;
+  margin: 12px 24px;
 }
 
-nav {
-  margin: auto 16px auto auto;
-  margin-left: auto;
-}
 
-li{
+ul{
+  margin: 0 24px;
+  padding: 0;
   list-style: none;
   display: flex;
+  gap: 32px;
+  justify-content:center;
 }
 
 img{
-  padding: 24px;
   display: flex;
-}
-
-ul{
-  margin: auto;
-  text-align: center;
 }
 
 a{
@@ -53,22 +53,20 @@ nav a:hover{
   background-color: #ccc;
 }
 
-.container {
+.container{
   display: flex;
+  padding-top: 144px;
 }
 
 main {
+  margin: 0;
   flex: 1;
   padding: 24px;
+  background-color: pink;
 }
 
-@media(max-width: 412px){
-  aside{
-    display: none;
-  }
-}
 h2{
-  margin:12px;
+  margin: 0;
   padding: 0;
   font-weight: inherit;
 }
@@ -85,10 +83,11 @@ article:nth-child(even){
 }
 
 .text{
-    min-width: 600px;
+    min-width: 400px;
+    box-sizing: border-box;
 }
 img{
-  margin: 0;
+  margin: 0 auto;
 }
 
 aside {
@@ -102,4 +101,38 @@ aside {
 
 footer {
   background-color: cadetblue;
+}
+
+@media(max-width: 412px){
+  header{
+    display: block;
+  }
+
+  header a{
+    justify-content: center;
+  }
+
+  header nav{
+    justify-content: center;
+  }
+
+  .container{
+    padding-top: 168px;
+  }
+  main{
+    display: block;
+  }
+
+  aside{
+    display: none;
+  }
+  article{
+    display: block;
+  }
+
+  main p, main h2, main h3, main img{
+    width: 320px;
+    margin: 24px auto 0;
+    
+  }
 }
